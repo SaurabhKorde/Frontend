@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width:200px;
+            height: 200px;
+            border: 2px solid black;
+            margin:20px;
+            padding:20px;
+        }
+        .divInline{
+            display: inline;
+            background-color: rgb(186, 137, 232);
+        }
+        .divBlock{
+            display: block;
+            background-color: gray;
+        }
+
+        .divInlineBlock{
+            display:inline-block;
+            background-color: rgb(217, 104, 125);
+        }
+        .divNone{
+            background-color: rgb(199, 207, 46);
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Inline </h1>
+    <div class="divInline">Div1aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+      
+    </div>
+    <div class="divInline">Div2</div>
+    <div class="divInline">Div3</div>
+    <div class="divInline">Div4 </div>
+
+    <hr>
+<h1>Block</h1>
+    <div class="divBlock">Div1</div>
+    <div class="divBlock">Div2</div>
+    <div class="divBlock">Div3</div>
+    <div class="divBlock">Div4 </div>
+
+
+    <hr>
+    <h1>Inline- Block</h1>
+    <div class="divInlineBlock">Div1</div>
+    <div class="divInlineBlock">Div2</div>
+    <div class="divInlineBlock">Div3</div>
+    <div class="divInlineBlock">Div4 </div>
+
+    <hr>
+    <h1>None</h1>
+    <div class="divNone">block, the major difference is that display: inline-block does not add a line-break after the element, so the element can sit next to other elements.
+    </div>
+</body>
+</html>
